@@ -1,0 +1,35 @@
+.wrapper {
+    // height: 10px;
+
+    & + .wrapper {
+        margin-top: 15px;
+    }
+}
+.lable {
+    display: inline-block;
+    text-transform: capitalize;
+    padding-left: 10px;
+    height: 30px;
+}
+
+.inp,
+.inpTextarea {
+    width: 100%;
+    background-color: var(--item-color);
+    border-radius: var(--border-radius);
+    font-size: 1.4rem;
+    line-height: 1.6;
+    outline: none;
+    border: none;
+}
+
+.inp {
+    padding: 6px 10px;
+}
+
+.inpTextarea {
+    flex: 1;
+    padding: 8px 10px;
+    resize: none;
+    height: 250px;
+}

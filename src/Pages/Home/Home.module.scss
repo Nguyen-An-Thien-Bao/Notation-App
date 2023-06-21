@@ -1,0 +1,34 @@
+.wrapper {
+    display: grid;
+    gap: 30px;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr 1fr;
+    grid-template-areas:
+        'head head aside'
+        'midle midle aside'
+        'midle midle aside'
+        'botLeft botRight aside';
+}
+
+.page-title,
+.grid-item {
+}
+
+.page-title {
+    grid-area: head;
+}
+.date-container {
+    grid-area: midle;
+}
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    grid-area: aside;
+}
+.task-container {
+    grid-area: botLeft;
+}
+.bookmark-container {
+    grid-area: botRight;
+}

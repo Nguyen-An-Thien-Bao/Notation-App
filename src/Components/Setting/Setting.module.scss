@@ -1,0 +1,21 @@
+.wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 500px;
+    max-width: 100%;
+    height: 600px;
+    background-color: var(--sideBar-lighter-color);
+    border-radius: 30px;
+    border: 5px solid var(--sideBar-bg-color);
+    overflow-y: hidden;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 2.5rem;
+}

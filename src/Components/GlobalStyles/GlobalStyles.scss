@@ -1,0 +1,100 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400;500;600;700&display=swap');
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        // background-color: transparent;
+    }
+    to {
+        // background-color: rgba(0, 0, 0, 0.5);
+        opacity: 1;
+    }
+}
+
+:root {
+    --font-family: 'Prompt', sans-serif;
+
+    // --bg-color: #221f28;
+    --bg-color: #0f0e0e;
+
+    // --purple-color: #16151b;
+    --purple-color: #000;
+    --item-color: #282828;
+
+    --blue-color: #3045a3;
+    --border-radius: 15px;
+    --white-color: #fff;
+    --gray-color: #ccc;
+
+    --sideBar-bg-color: #4f709c;
+    --sideBar-semi-color: #213555;
+    --sideBar-lighter-color: #f5efe7;
+    --black-color: #000;
+    --second-black-color: #151419;
+
+    --fade-ani: fade;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #ffffff #000000;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 13px;
+    border: 3px solid #ffffff;
+}
+
+/* ===== Scrollbar CSS ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: var(--font-family);
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: var(--font-family);
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    background-color: var(--bg-color);
+}
+
+a,
+button,
+input {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+textarea {
+    resize: none;
+}
+
+.opacity {
+    opacity: 1 !important;
+    transition: opacity 0.8s ease-in-out;
+}
+
+.main {
+}

@@ -1,0 +1,58 @@
+{
+  "todoStorage": [
+    {
+      "title": "Google Favicon Api",
+      "content": "https://www.google.com/s2/favicons?domain=${domain}&sz=${size}\n\nexample: https://www.google.com/s2/favicons?domain=dev.to&sz=512 (nothing found for 512x512, so returns a 16x16 PNG)",
+      "date": "9/6/2023",
+      "id": 2
+    },
+    {
+      "title": "PC Budgets",
+      "content": "1. processor: Intel Core i5 Core 12400F (Amazon: 149$)\n2. mainboard: MSI PRO H610M-G DDR4 DDR4 (Amazon: 79$)\n3. GPU: MSI Gaming GeForce GTX 1660 Super 6GB GDRR6 (Amazon: 249$)\n4. Ram: TEAMGROUP T-Force Vulcan Z DDR4 16GB Kit (2x8GB) 3200MHz (Amazon: 83$)\n5. SSD: Western Digital 2TB WD Blue SN570 NVMe (Amazon: 92$)\n6. Case: Zalman T7 ATX Mid Tower Premium (Amazon: 50$)\n7 PSU: Thermaltake Toughpower GF1 750W 80+ Gold SLI (Amazon: 127$)\nTotal: 829$",
+      "date": "11/6/2023",
+      "id": 3
+    },
+    {
+      "title": "New Vocab",
+      "content": "Workaholic: Người cuồng công việc\nSedentary lifestyle: Lối sống ít vận động\nUnforeseen: Không lường trước được",
+      "date": "11/6/2023",
+      "id": 6
+    },
+    {
+      "title": "Major Vocab",
+      "content": "1. Trigger: kích hoạt\n2. Mutation: đột biến (object mutation)",
+      "date": "11/6/2023",
+      "id": 7
+    },
+    {
+      "title": "Skeleton Loading",
+      "content": "link: https://viblo.asia/p/reactjs-loading-skeleton-trong-reactjs-WAyK84kkKxX",
+      "date": "12/6/2023",
+      "id": 8
+    },
+    {
+      "title": "Redux",
+      "content": "part 1: https://viblo.asia/p/redux-cho-nguoi-moi-bat-dau-part-1-introduction-ZjleaBBZkqJ\npart 2: https://viblo.asia/p/redux-cho-nguoi-moi-bat-dau-part-2-first-project-aRBvXWQZkWE\npart 3: Redux cho người mới bắt đầu - Part 3 Middleware\n\n\nMiddleware Redux-sage: https://viblo.asia/p/redux-middleware-redux-saga-gGJ59X7jlX2\n\n\nRedux Document: https://redux.js.org/",
+      "date": "12/6/2023",
+      "id": 9
+    },
+    {
+      "title": "Redux edit case",
+      "content": "case EDIT_TODO:\n                return state.map((todo) => todo.id === action.id ? { ...todo, text: action.text } : todo);",
+      "date": "13/6/2023",
+      "id": 10
+    },
+    {
+      "title": "Dave Gray",
+      "content": "Dave Gray: https://courses.davegray.codes/",
+      "date": "13/6/2023",
+      "id": 11
+    },
+    {
+      "title": "asd",
+      "content": "sdasd",
+      "date": "16/6/2023",
+      "id": 12
+    }
+  ]
+}

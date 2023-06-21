@@ -1,0 +1,25 @@
+.wrapper {
+    padding-left: 15px;
+    height: 50px;
+    text-transform: capitalize;
+    color: var(--white-color);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text {
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.leftIcon {
+    margin-right: 6px;
+}
+
+.Righticon {
+    margin-left: 6px;
+}

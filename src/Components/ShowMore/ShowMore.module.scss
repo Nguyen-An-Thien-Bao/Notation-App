@@ -1,0 +1,31 @@
+.more-btn {
+    position: absolute;
+    display: inline-flex;
+    top: 0;
+    right: 0;
+    transform: translate(-25px, 30px);
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: -10px;
+    left: -10px;
+    min-width: 220px;
+    margin: 10px;
+    height: 100%;
+    // aspect-ratio: 1/1;
+    border-radius: var(--border-radius);
+    background-color: rgba(0, 0, 0, 0.6);
+    animation: var(--fade-ani) linear 0.5s;
+}
+
+.button-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 60%;
+}

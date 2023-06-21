@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    border-radius: var(--border-radius);
+    padding: 15px;
+    background-color: var(--item-color);
+    // margin: 20px 0;
+}
+
+.day-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.icon {
+    margin-right: 7px;
+}
+
+.day {
+    text-transform: capitalize;
+    // padding-top: 20px;
+}
+
+.rain-rate {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.info-icon {
+}
+
+.info-text {
+}

@@ -1,0 +1,26 @@
+.wrapper {
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.icon {
+    color: var(--black-color);
+    display: flex;
+}
+
+.leftIcon {
+    margin-right: 10px;
+}
+.rightIcon {
+    margin-left: 10px;
+}

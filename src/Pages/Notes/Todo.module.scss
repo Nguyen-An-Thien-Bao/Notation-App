@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    column-gap: 30px;
+    height: 100%;
+}
+
+// todo container
+
+.todo-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-title {
+    padding-left: 20px;
+    color: white;
+}
+
+.todo-container {
+    flex: 1;
+    overflow-y: scroll;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 1280px) {
+    .todo-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
